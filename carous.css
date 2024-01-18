@@ -1,0 +1,46 @@
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 2000px; 
+    margin: auto;
+  }
+
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-card {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #e0e0e0;
+    overflow: hidden;
+  }
+
+  .carousel-card img{
+    width: 50%;
+    height:90%;
+  }
+
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .carousel-button-left {
+    left: 0;
+  }
+
+  .carousel-button-right {
+    right: 0;
+  }
